@@ -1,0 +1,8 @@
+cd git-practical
+git branch
+git branch feature-demo
+git switch feature-demo
+git branch
+git switch main
+git branch -d feature-demo
+git branch
