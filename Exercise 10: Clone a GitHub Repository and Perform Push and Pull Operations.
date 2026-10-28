@@ -1,0 +1,11 @@
+Use a different folder name if git-practical already exists in your current directory.
+cd /workspaces
+git clone https://github.com/anandajothi-2007/git-practical.git
+cd git-practical
+echo "Push and pull practical" > push-pull-demo.txt
+git add push-pull-demo.txt
+git commit -m "Add push pull demo"
+git push origin main
+git pull origin main
+cat push-pull-demo.txt
+
