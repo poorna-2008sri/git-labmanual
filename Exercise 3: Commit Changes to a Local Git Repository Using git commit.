@@ -1,0 +1,5 @@
+cd git-practical
+echo "First Git commit" > commit-demo.txt
+git add commit-demo.txt
+git commit -m "Add first commit demo"
+git log --oneline
