@@ -1,0 +1,5 @@
+cd git-practical
+echo "Welcome to Git and GitHub" > message.txt
+git status
+git add message.txt
+git status
