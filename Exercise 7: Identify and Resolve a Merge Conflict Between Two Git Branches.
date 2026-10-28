@@ -1,0 +1,21 @@
+cd git-practical
+echo "Welcome to Git" > conflict-demo.txt
+git add conflict-demo.txt
+git commit -m "Add conflict demo file"
+
+git switch -c feature-conflict
+echo "Feature branch content" > conflict-demo.txt
+git add conflict-demo.txt
+git commit -m "Update file in feature branch"
+
+git switch main
+echo "Main branch content" > conflict-demo.txt
+git add conflict-demo.txt
+git commit -m "Update file in main branch"
+
+git merge feature-conflict
+If a conflict occurs, edit conflict-demo.txt and remove the conflict markers (<<<<<<<, =======, >>>>>>>). Keep the content you want, then run:
+git add conflict-demo.txt
+git commit -m "Resolve merge conflict"
+cat conflict-demo.txt
+git status
