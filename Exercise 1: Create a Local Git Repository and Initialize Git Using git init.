@@ -1,0 +1,4 @@
+mkdir git-practical
+cd git-practical
+git init
+git status
