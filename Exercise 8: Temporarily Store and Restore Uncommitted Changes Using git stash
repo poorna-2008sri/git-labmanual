@@ -1,0 +1,11 @@
+cd git-practical
+echo "Original content" > notes.txt
+git add notes.txt
+git commit -m "Add original notes"
+
+echo "Temporary work" >> notes.txt
+git stash push -m "Save temporary work"
+git status
+git stash pop
+cat notes.txt
+
