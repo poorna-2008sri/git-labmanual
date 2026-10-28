@@ -1,0 +1,12 @@
+cd git-practical
+echo "Original content" > undo-demo.txt
+git add undo-demo.txt
+git commit -m "Add original content"
+
+echo "Unwanted change" > undo-demo.txt
+git restore undo-demo.txt
+cat undo-demo.txt
+git status
+
+
+
