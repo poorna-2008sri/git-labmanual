@@ -1,0 +1,4 @@
+This exercise was performed using the GitHub website, so terminal commands are not required. The equivalent command to clone your fork is:
+git clone https://github.com/anandajothi-2007/Hello-World.git
+cd Hello-World
+git status
