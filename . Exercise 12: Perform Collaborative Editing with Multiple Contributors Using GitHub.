@@ -1,0 +1,10 @@
+The initial file was created in the practical repository as follows:
+cd /workspaces/git-practical
+echo "Collaborative editing practical - Exercise 12" > collaboration.txt
+git add collaboration.txt
+git commit -m "Add collaborative editing exercise"
+git push origin main
+After the collaborator commits and pushes their contribution, run:
+git pull origin main
+cat collaboration.txt
+git log --oneline -5
